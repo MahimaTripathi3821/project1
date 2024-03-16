@@ -1,0 +1,42 @@
+.btn{
+  display:flex;
+  justify-content:center;
+  gap:2px;
+}
+#mybtn1{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: black;
+  color:aliceblue;
+  height: 50px;
+  width:80px;
+}
+#mybtn2{
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(117, 206, 28);
+  color:black;
+  height: 50px;
+  width:80px;
+}
+body{
+background-image:linear-gradient(to right,rgb(92,145,229),rgb(152,63,198))
+
+}
+.in{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.parent{
+  margin-top: 250px;
+}
+#heading{
+  color:white;
+}
+.copy_code{
+  color:white;
+}
